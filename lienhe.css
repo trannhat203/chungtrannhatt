@@ -1,0 +1,84 @@
+/* Nền gradient tối và thanh lịch */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    color: #ffffff;
+}
+
+/* Header với nền đen và chữ vàng sang trọng */
+header {
+    background-color: #000000;
+    color: #fdd835;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+/* Phần nội dung với nền tối và viền vàng */
+#extra.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 60px auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #ffd700;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+#extra h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffd700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Liên kết bổ sung với hiệu ứng hover */
+.extra-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.extra-links li {
+    margin: 15px 0;
+}
+
+.extra-links a {
+    color: #ffd700;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.extra-links a:hover {
+    color: #ffffff;
+}
+
+/* Footer với nền đen và chữ vàng */
+footer {
+    background-color: #000000;
+    color: #fdd835;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+}
