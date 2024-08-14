@@ -1,0 +1,89 @@
+/* duan.css */
+
+/* Nền gradient tối và thanh lịch */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    color: #ffffff;
+}
+
+/* Header với nền đen và chữ vàng sang trọng */
+header {
+    background-color: #000000;
+    color: #fdd835;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+/* Phần dự án với màu nền đậm và viền ánh kim */
+#projects {
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffd700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Phần dự án với hiệu ứng nổi và viền sáng */
+.project {
+    background-color: #262626;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 2px solid #ffd700;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+}
+
+.project h3 {
+    font-size: 1.8em;
+    color: #fdd835;
+    margin-bottom: 15px;
+}
+
+.project p {
+    font-size: 1.2em;
+    color: #dcdcdc;
+}
+
+/* Footer với nền đen và chữ vàng */
+footer {
+    background-color: #000000;
+    color: #fdd835;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+}
